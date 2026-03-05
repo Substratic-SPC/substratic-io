@@ -42,8 +42,9 @@ body {
   transform: translate(-50%, -50%);
   width: min(900px, 92vw);
   aspect-ratio: 7 / 6;
-  background: url('/assets/logo-watermark.jpg') center / contain no-repeat;
-  opacity: 0.08;
+  background: url('/assets/logo-dark-watermark.jpg') center / contain no-repeat;
+  opacity: 0.5;
+  mix-blend-mode: screen;
   pointer-events: none;
   z-index: 0;
 }

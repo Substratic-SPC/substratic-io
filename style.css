@@ -236,11 +236,39 @@ body {
   padding-top: 1.5rem;
 }
 
-.use-cases-text {
+.use-cases h2 {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--text-secondary);
+  margin-bottom: 0.85rem;
+}
+
+.use-cases-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.use-cases-grid p {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  margin-bottom: 0.4rem;
+}
+
+.use-cases-grid ul {
+  list-style: none;
+  padding: 0;
+}
+
+.use-cases-grid li {
   font-size: 0.875rem;
   color: var(--text-secondary);
-  font-style: italic;
-  line-height: 1.65;
+  line-height: 1.8;
 }
 
 /* ===========================

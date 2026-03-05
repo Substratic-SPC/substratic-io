@@ -245,30 +245,27 @@ body {
   margin-bottom: 0.85rem;
 }
 
-.use-cases-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-}
-
-.use-cases-grid p {
-  font-size: 0.78rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--text-secondary);
-  margin-bottom: 0.4rem;
-}
-
-.use-cases-grid ul {
+.pain-points {
   list-style: none;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
 }
 
-.use-cases-grid li {
+.pain-points li {
   font-size: 0.875rem;
   color: var(--text-secondary);
-  line-height: 1.8;
+  line-height: 1.5;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.pain-points li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--border);
 }
 
 /* ===========================

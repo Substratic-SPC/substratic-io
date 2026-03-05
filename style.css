@@ -36,8 +36,8 @@ body::before {
   content: '';
   position: fixed;
   inset: 0;
-  background: url('/assets/logo-dark.jpg') center / cover;
-  opacity: 0.3;
+  background: url('/assets/logo-dark.jpg') center 25% / cover;
+  opacity: 0.18;
   z-index: 0;
 }
 
@@ -83,7 +83,7 @@ body::before {
 }
 
 .wordmark:hover {
-  color: var(--accent);
+  color: var(--text);
 }
 
 .logo {
@@ -146,21 +146,22 @@ body::before {
 
 .btn {
   display: inline-block;
-  background-color: var(--accent);
-  color: var(--bg);
+  background-color: transparent;
+  color: var(--text);
   text-decoration: none;
   padding: 0.65rem 1.5rem;
   border-radius: 4px;
   font-size: 0.95rem;
   font-weight: 500;
-  border: none;
+  border: 1px solid rgba(232, 228, 220, 0.4);
   cursor: pointer;
-  transition: background-color 0.15s ease;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
   font-family: var(--font);
 }
 
 .btn:hover {
-  background-color: #a8d8e4;
+  background-color: rgba(232, 228, 220, 0.1);
+  border-color: var(--text);
 }
 
 /* ===========================
@@ -256,7 +257,7 @@ body::before {
 .form-row input:focus,
 .form-row textarea:focus {
   outline: none;
-  border-color: var(--accent);
+  border-color: rgba(232, 228, 220, 0.5);
 }
 
 .form-row textarea {
@@ -293,7 +294,7 @@ body::before {
 }
 
 .site-footer a:hover {
-  color: var(--accent);
+  color: var(--text);
 }
 
 .icon-linkedin {

@@ -193,31 +193,6 @@ body {
   font-weight: 600;
 }
 
-.pain-points {
-  list-style: none;
-  padding: 0;
-  border-top: 1px solid var(--border);
-  padding-top: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.pain-points li {
-  font-size: 0.85rem;
-  color: var(--text-secondary);
-  line-height: 1.5;
-  padding-left: 1rem;
-  position: relative;
-  font-style: italic;
-}
-
-.pain-points li::before {
-  content: '—';
-  position: absolute;
-  left: 0;
-  color: var(--border);
-}
 
 /* ===========================
    Contact

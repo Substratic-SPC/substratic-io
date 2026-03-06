@@ -1,11 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <defs>
-    <linearGradient id="fcg" x1="15" y1="0" x2="78" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%"   stop-color="#707070"/>
-      <stop offset="55%"  stop-color="#8a7a58"/>
-      <stop offset="100%" stop-color="#c8721e"/>
-    </linearGradient>
-  </defs>
+  <!-- Light strokes on transparent bg — visible on both dark and light browser chrome -->
 
   <path d="M 15,62
     C 5,62 3,52 5,46
@@ -18,11 +12,13 @@
     C 91,53 85,62 78,62
     L 15,62 Z"
     fill="none"
-    stroke="url(#fcg)"
+    stroke="#c0c0c0"
     stroke-width="8.5"
     stroke-linejoin="round"
     stroke-linecap="round"/>
 
-  <line x1="15" y1="74" x2="78" y2="74" stroke="url(#fcg)" stroke-width="7.5" stroke-linecap="round"/>
-  <line x1="15" y1="86" x2="78" y2="86" stroke="url(#fcg)" stroke-width="7.5" stroke-linecap="round"/>
+  <path d="M 10,79 C 24,76 42,81 53,77 C 65,73 76,80 85,78"
+    fill="none" stroke="#b0b0b0" stroke-width="7.5" stroke-linecap="round"/>
+  <path d="M 10,91 C 26,94 44,88 56,92 C 68,88 78,94 85,91"
+    fill="none" stroke="#b0b0b0" stroke-width="7.5" stroke-linecap="round"/>
 </svg>
